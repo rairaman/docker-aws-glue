@@ -1,7 +1,7 @@
 FROM ubuntu
 
 #Dependencies
-RUN apt update && apt install -y python3-minimal default-jdk curl git zip
+RUN apt update && apt install -y python3-minimal default-jdk curl git zip vim
 
 #Maven install
 RUN curl -fsSL https://archive.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz -o /opt/apache-maven-3.6.0-bin.tar.gz 
